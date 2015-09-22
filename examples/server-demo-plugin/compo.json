@@ -1,0 +1,26 @@
+{
+  "manifest_version": "1.0",
+  "extensions": [
+    {
+      "epID": "http.endpoint",
+      "path": "/u/:user",
+      "method": "get",
+      "function": "./lib/endpoints!getUser",
+      "description": "A fake user profile page."
+    },
+
+    {
+      "epID": "http.endpoint",
+      "path": "/r",
+      "directory": "__dirname/resources",
+      "description": "A statically served directory"
+    }
+  ],
+
+  "singletons": {
+    "userController": {
+      "description": "A fake user controller.",
+      "object": "./lib/singletons!UserController"
+    }
+  }
+}

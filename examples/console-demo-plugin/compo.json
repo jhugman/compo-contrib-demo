@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "extensions": [
+    {
+      "epID": "console.command",
+      "firstWord": "hello",
+      "function": "./lib/test-commands!hello",
+      "description": "A command to greet the computer"
+    },
+    {
+      "epID": "console.command",
+      "firstWord": "i",
+      "secondWord": "am",
+      "function": "./lib/test-commands!iam",
+      "description": "A command to tell the computer your name"
+    }
+  ]
+}

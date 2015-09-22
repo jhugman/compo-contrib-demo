@@ -1,0 +1,23 @@
+{
+  "manifest_version": "1.0",
+  "extensions": [
+    {
+      "epID": "http.endpoint",
+      "path": "/users",
+      "method": "get",
+      "function": "./lib/endpoints!getUsers",
+      "description": "A fake user admin page."
+    },
+    {
+      "epID": "console.command",
+      "firstWord": "list",
+      "secondWord": "users",
+      "function": "./lib/console!getUsers",
+      "description": "A list of the users in the userController"
+    }
+  ],
+
+  "permissions": [
+    "userController"
+  ]
+}

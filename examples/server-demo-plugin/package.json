@@ -1,0 +1,13 @@
+{
+  "name": "server-demo-plugin",
+  "version": "1.0.0",
+  "description": "A server plugin that adds two endpoints. See list routes on the console.",
+  "main": "index.js",
+  "author": "@jhugman",
+  "license": "Apache-2.0",
+  "compo": "compo.json",
+
+  "scripts": {
+    "start": "node --use-strict ../../node_modules/compo/bin/cli.js ../.. ."
+  }
+}

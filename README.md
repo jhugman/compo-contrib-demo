@@ -347,7 +347,7 @@ Look at how an instance of how the Repl class is exposed in the [console plugin'
 
 Now look at the way of adding (and perhaps removing) extensions from an already existing data-structure. In this case, adding endpoints to an `express` server.
 
-[server-plugin.js][https://github.com/jhugman/compo-contrib-server/blob/master/index.js#L48]
+ [server-plugin.js]: [https://github.com/jhugman/compo-contrib-server/blob/master/index.js#L48]
 
 Add another console command or endpoint to one of the example plugins.
 

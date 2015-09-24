@@ -1,3 +1,6 @@
+`compo` Demo
+============
+
 This is a demo project for `compo`. It is a Cut Out And Keep Play Along At Home demo.
 
 Most of the demo will be done via the command line.

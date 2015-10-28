@@ -246,8 +246,7 @@ Here is the [manifest for `user-admin-plugin`](https://github.com/jhugman/compo-
     },
     {
       "epID": "console.command",
-      "firstWord": "list",
-      "secondWord": "users",
+      "command": "list users",
       "function": "./lib/console!getUsers",
       "description": "A list of the users in the userController"
     }

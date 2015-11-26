@@ -1,12 +1,12 @@
 let plugin = require('..').plugin
 
-exports.getUsers = (println, tokens) => {
+exports.getUsers = (output, tokens) => {
   let users = plugin.userController.getUsers()
-  println('All users:')
+  output.log('All users:')
   users.forEach((u) => {
-    println('\t' + u)
+    output.log('\t' + u)
   })
   if (users.length === 0) {
-    println('\tNone.')
+    output.log('\tNone.')
   }
 }
